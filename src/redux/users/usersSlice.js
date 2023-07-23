@@ -13,7 +13,7 @@ export const fetchUser = createAsyncThunk('get/fetchUser', async (API) => {
 const initialState = {
     userList: [],
     isLoading: false,
-    error: null
+    error: undefined,
 }
 
 const userSlice = createSlice({

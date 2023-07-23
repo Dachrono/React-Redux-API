@@ -10,6 +10,8 @@ const Users = () => {
     
     const { userList, isLoading, error } = useSelector((state) => state.userList)
 
+    console.log(useSelector((state) => state.userList))
+
     if (isLoading === true) {
         return (
           <section className="pending">
