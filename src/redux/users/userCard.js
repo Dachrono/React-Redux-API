@@ -10,7 +10,7 @@ function UserCard({ name, lastname }) {
   );
 }
 
-LiUsers.propTypes = {
+UserCard.propTypes = {
   name: PropTypes.string.isRequired,
   lastname: PropTypes.string.isRequired,
 };
